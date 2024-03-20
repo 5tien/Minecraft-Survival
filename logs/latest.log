@@ -1,5 +1,5 @@
-[18:39:44] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[18:39:44] [main/INFO]: Loading 88 mods:
+[20:51:28] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[20:51:28] [main/INFO]: Loading 88 mods:
 	- asynclocator 1.3.0
 	- c2me 0.2.0+alpha.11.5
 	   |-- c2me-base 0.2.0+alpha.11.5
@@ -102,44 +102,40 @@
 	   \-- placeholder-api 2.1.2+1.20.1
 	- spark 1.10.53
 	- starlight 1.1.2+fabric.dbc156f
-[18:39:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/stenb/Documents/Minecraft%20Github/Minecraft%20Survival/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[18:39:44] [main/INFO]: Compatibility level set to JAVA_17
-[18:39:44] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:39:45] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[18:39:45] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[18:39:45] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
-[18:39:45] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[18:39:45] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[18:39:45] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton]) disables it and children
-[18:39:45] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[18:39:46] [main/INFO]: Removing config entry .noTickViewDistance.updatesPerTick because it is not used
-[18:39:46] [main/INFO]: Removing config entry .generalOptimizations.doMidTickChunkTasks because it is not used
-[18:39:46] [main/INFO]: Removing config entry .asyncScheduling.enabled because it is not used
-[18:39:46] [main/INFO]: Removing config entry .asyncScheduling because it is not used
-[18:39:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[18:39:48] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
-[18:39:52] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[18:39:52] [main/WARN]: Method overwrite conflict for getConnection in krypton.mixins.json:shared.network.util.ServerPlayNetworkHandlerAccessor from mod krypton, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[18:39:54] [main/INFO]: Async Locator -> No config file found - creating it
-[18:39:54] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
-[18:39:54] [main/INFO]: Async Locator -> Configs:
+[20:51:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/stenb/Documents/Minecraft%20Github/Minecraft%20Survival/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:51:28] [main/INFO]: Compatibility level set to JAVA_17
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:51:29] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:51:29] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[20:51:29] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
+[20:51:30] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20:51:30] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[20:51:30] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton]) disables it and children
+[20:51:30] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[20:51:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20:51:34] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
+[20:51:39] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[20:51:39] [main/WARN]: Method overwrite conflict for getConnection in krypton.mixins.json:shared.network.util.ServerPlayNetworkHandlerAccessor from mod krypton, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[20:51:40] [main/INFO]: Async Locator -> Config file found
+[20:51:41] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
+[20:51:41] [main/INFO]: Async Locator -> Configs:
 Locator Threads: 1
 Remove Offer: false
 Dolphin Treasure Enabled: true
@@ -147,80 +143,68 @@ Eye Of Ender Enabled: true
 Exploration Map Enabled: true
 Locate Command Enabled: true
 Villager Trade Enabled: true
-[18:39:54] [main/INFO]: [GottaGoFast] GottaGoFast Fabric by oskardotglobal loaded sucessfully!
-[18:39:54] [main/INFO]: Compression will use Java, encryption will use Java
-[18:39:54] [main/INFO]: [MagicLib|Common]: Mod initialized - Version: 0.7.387+c02a0de-stable
-[18:39:54] [main/INFO]: Here at Wisp Forest© we employ Wisp Tech Support™ magic, which solves your problem when you ask
-[18:39:54] [main/INFO]: [RecipeCooldown] RecipeCooldown loaded
-[18:39:54] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
-[18:39:54] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
-[18:39:54] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:39:56] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
-[18:39:56] [main/INFO]: Loaded 7 recipes
-[18:39:56] [main/INFO]: Loaded 1271 advancements
-[18:39:57] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.115 ms
-[18:39:57] [Server thread/INFO]: Async Locator -> Starting locating executor service with thread pool size of 1
-[18:39:57] [Server thread/INFO]: Starting background profiler...
-[18:39:57] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[18:39:57] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[18:39:57] [Server thread/INFO]: Loading properties
-[18:39:57] [Server thread/INFO]: Default game type: SURVIVAL
-[18:39:57] [Server thread/INFO]: Generating keypair
-[18:39:57] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[18:39:57] [Server thread/INFO]: Using default channel type
-[18:39:58] [Server thread/INFO]: Preparing level "world"
-[18:39:58] [Server thread/INFO]: [CM] Loaded 11 settings from carpet.conf
-[18:39:58] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedHypot is not a valid rule - ignoring...
-[18:39:58] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedRounding is not a valid rule - ignoring...
-[18:39:58] [Server thread/INFO]: [CM] Loaded 13 settings from carpet-fixes.conf
-[18:39:58] [Server thread/INFO]: Enforcing safe world random access
-[18:40:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:40:00] [C2ME worker #4/INFO]: Preparing spawn area: 0%
-[18:40:00] [C2ME worker #1/INFO]: Preparing spawn area: 0%
-[18:40:00] [C2ME worker #2/INFO]: Preparing spawn area: 0%
-[18:40:00] [C2ME worker #3/INFO]: Preparing spawn area: 0%
-[18:40:00] [C2ME worker #2/INFO]: Preparing spawn area: 7%
-[18:40:01] [minecraft_overworld - Light/INFO]: Preparing spawn area: 91%
-[18:40:01] [Server thread/INFO]: Time elapsed: 1167 ms
-[18:40:01] [Server thread/INFO]: Done (3.077s)! For help, type "help"
-[18:40:03] [User Authenticator #1/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[18:40:03] [Server thread/INFO]: StenW[/127.0.0.1:53352] logged in with entity id 155 at (5554.077506908794, 73.0625, 1701.4590468288525)
-[18:40:03] [Server thread/INFO]: StenW joined the game
-[18:40:04] [Server thread/INFO]: Player StenW joined with a matching carpet client
-[18:40:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[18:43:41] [Server thread/INFO]: [StenW: StenW subscribed to tps.]
-[18:45:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4969ms or 99 ticks behind
-[18:57:57] [Server thread/INFO]: StenW lost connection: Disconnected
-[18:57:57] [Server thread/INFO]: StenW left the game
-[19:03:44] [User Authenticator #2/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[19:03:44] [Server thread/INFO]: StenW[/127.0.0.1:54149] logged in with entity id 8192 at (5570.5, 71.875, 1712.5)
-[19:03:44] [Server thread/INFO]: StenW joined the game
-[19:03:49] [Server thread/INFO]: Player StenW joined with a matching carpet client
-[19:05:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5572ms or 111 ticks behind
-[19:06:31] [Server thread/INFO]: StenW lost connection: Disconnected
-[19:06:31] [Server thread/INFO]: StenW left the game
-[19:21:08] [User Authenticator #3/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[19:21:08] [Server thread/INFO]: StenW[/127.0.0.1:54635] logged in with entity id 17019 at (5902.486425426885, 70.0, 1700.288697863578)
-[19:21:08] [Server thread/INFO]: StenW joined the game
-[19:21:13] [Server thread/INFO]: Player StenW joined with a matching carpet client
-[19:22:48] [Server thread/INFO]: Stopping the server
-[19:22:48] [Server thread/INFO]: Async Locator -> Shutting down locating executor service
-[19:22:48] [Server thread/INFO]: Stopping server
-[19:22:48] [Server thread/INFO]: Saving players
-[19:22:48] [Server thread/INFO]: Saving worlds
-[19:22:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:22:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:22:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:22:58] [C2ME Storage #3/INFO]: Storage thread Thread[C2ME Storage #3,8,main] stopped
-[19:22:58] [C2ME Storage #2/INFO]: Storage thread Thread[C2ME Storage #2,8,main] stopped
-[19:22:58] [C2ME Storage #1/INFO]: Storage thread Thread[C2ME Storage #1,8,main] stopped
-[19:22:58] [C2ME Storage #6/INFO]: Storage thread Thread[C2ME Storage #6,8,main] stopped
-[19:22:58] [C2ME Storage #5/INFO]: Storage thread Thread[C2ME Storage #5,8,main] stopped
-[19:22:58] [C2ME Storage #4/INFO]: Storage thread Thread[C2ME Storage #4,8,main] stopped
-[19:22:58] [C2ME Storage #9/INFO]: Storage thread Thread[C2ME Storage #9,8,main] stopped
-[19:22:58] [C2ME Storage #7/INFO]: Storage thread Thread[C2ME Storage #7,8,main] stopped
-[19:22:58] [C2ME Storage #8/INFO]: Storage thread Thread[C2ME Storage #8,8,main] stopped
+[20:51:41] [main/INFO]: [GottaGoFast] GottaGoFast Fabric by oskardotglobal loaded sucessfully!
+[20:51:41] [main/INFO]: Compression will use Java, encryption will use Java
+[20:51:41] [main/INFO]: [MagicLib|Common]: Mod initialized - Version: 0.7.387+c02a0de-stable
+[20:51:41] [main/INFO]: Noaaan: I'm talking to my inner demons. Which is all of you
+[20:51:41] [main/INFO]: [RecipeCooldown] RecipeCooldown loaded
+[20:51:41] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
+[20:51:41] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
+[20:51:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:51:43] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
+[20:51:43] [main/INFO]: Loaded 7 recipes
+[20:51:43] [main/INFO]: Loaded 1271 advancements
+[20:51:44] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.089 ms
+[20:51:44] [Server thread/INFO]: Async Locator -> Starting locating executor service with thread pool size of 1
+[20:51:44] [Server thread/INFO]: Starting background profiler...
+[20:51:44] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:51:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:51:44] [Server thread/INFO]: Loading properties
+[20:51:44] [Server thread/INFO]: Default game type: SURVIVAL
+[20:51:44] [Server thread/INFO]: Generating keypair
+[20:51:44] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[20:51:44] [Server thread/INFO]: Using default channel type
+[20:51:45] [Server thread/INFO]: Preparing level "world"
+[20:51:45] [Server thread/INFO]: [CM] Loaded 11 settings from carpet.conf
+[20:51:45] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedHypot is not a valid rule - ignoring...
+[20:51:45] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedRounding is not a valid rule - ignoring...
+[20:51:45] [Server thread/INFO]: [CM] Loaded 13 settings from carpet-fixes.conf
+[20:51:45] [Server thread/INFO]: Enforcing safe world random access
+[20:51:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:51:47] [C2ME worker #4/INFO]: Preparing spawn area: 0%
+[20:51:47] [C2ME worker #2/INFO]: Preparing spawn area: 0%
+[20:51:47] [minecraft_overworld - Light/INFO]: Preparing spawn area: 13%
+[20:51:47] [minecraft_overworld - Light/INFO]: Preparing spawn area: 90%
+[20:51:48] [Server thread/INFO]: Time elapsed: 1172 ms
+[20:51:48] [Server thread/INFO]: Done (2.896s)! For help, type "help"
+[20:51:55] [User Authenticator #1/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
+[20:51:55] [Server thread/INFO]: StenW[/127.0.0.1:57598] logged in with entity id 156 at (5554.260608206976, 73.0625, 1700.877944761698)
+[20:51:55] [Server thread/INFO]: StenW joined the game
+[20:52:00] [Server thread/INFO]: Player StenW joined with a matching carpet client
+[20:56:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6691ms or 133 ticks behind
+[21:01:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3372ms or 67 ticks behind
+[21:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2261ms or 45 ticks behind
+[21:07:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5129ms or 102 ticks behind
+[21:24:04] [Server thread/INFO]: StenW lost connection: Disconnected
+[21:24:04] [Server thread/INFO]: StenW left the game
+[21:24:10] [Server thread/INFO]: Stopping the server
+[21:24:10] [Server thread/INFO]: Async Locator -> Shutting down locating executor service
+[21:24:10] [Server thread/INFO]: Stopping server
+[21:24:10] [Server thread/INFO]: Saving players
+[21:24:10] [Server thread/INFO]: Saving worlds
+[21:24:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:24:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:24:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:24:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:24:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:24:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:24:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:24:10] [C2ME Storage #3/INFO]: Storage thread Thread[C2ME Storage #3,8,main] stopped
+[21:24:10] [C2ME Storage #2/INFO]: Storage thread Thread[C2ME Storage #2,8,main] stopped
+[21:24:10] [C2ME Storage #1/INFO]: Storage thread Thread[C2ME Storage #1,8,main] stopped
+[21:24:10] [C2ME Storage #6/INFO]: Storage thread Thread[C2ME Storage #6,8,main] stopped
+[21:24:10] [C2ME Storage #5/INFO]: Storage thread Thread[C2ME Storage #5,8,main] stopped
+[21:24:10] [C2ME Storage #4/INFO]: Storage thread Thread[C2ME Storage #4,8,main] stopped
+[21:24:10] [C2ME Storage #9/INFO]: Storage thread Thread[C2ME Storage #9,8,main] stopped
+[21:24:10] [C2ME Storage #8/INFO]: Storage thread Thread[C2ME Storage #8,8,main] stopped
+[21:24:10] [C2ME Storage #7/INFO]: Storage thread Thread[C2ME Storage #7,8,main] stopped
