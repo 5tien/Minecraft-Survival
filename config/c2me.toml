@@ -26,25 +26,28 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
 	compatibilityMode = "default"
+	# (Default: 5) No-tick view distance max concurrent chunk loads 
+	#  Lower this for a better latency and higher this for a faster loading
+	maxConcurrentChunkLoads = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
-	# (Default: 12) No-tick view distance updates per tick 
-	#  Lower this for a better latency and higher this for a faster loading
-	updatesPerTick = "default"
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
 
 [generalOptimizations]
-	# (Default: true) Whether to enable mid-tick chunk tasks  
+	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
 	# Mid-tick chunk tasks is to execute chunk tasks during server tick loop  
 	# to speed up chunk loading and generation  
 	# This helps chunks loading and generating under high MSPT but may raise  
 	# MSPT when chunks are loading or generating  
 	#  
+	# It is generally not recommended to adjust this value unless you know  
+	# what you are doing  
+	#  
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
-	doMidTickChunkTasks = "default"
+	midTickChunkTasksInterval = "default"
 	# (Default: true) Whether to let async chunk request no longer block server thread
 	# (may cause incompatibility with other mods)
 	optimizeAsyncChunkRequest = "default"
@@ -77,19 +80,21 @@ globalExecutorParallelism = "default"
 	# Invalid values will fall back to vanilla default
 	# 
 	chunkStreamVersion = "default"
-	# (Default: true) Whether to use the optimized implementation of IO system
-	replaceImpl = "default"
-	# (Default: 1536) Soft limit for io worker nbt cache
-	chunkDataCacheSoftLimit = "default"
-	# (Default: 6144) Hard limit for io worker nbt cache
-	chunkDataCacheLimit = "default"
-
-[asyncScheduling]
-	# (Default: true) Whether to enable async and parallel scheduling 
-	# This will reduce server thread load 
+	# (Default: false) EXPERIMENTAL FEATURE
+	# This replaces the way your chunks are saved.
+	# Please keep regular backups of your world if you are using this feature,
+	# and report any world issues you encounter with this feature to our GitHub.
+	# 
+	# Whether to use the fast reduced allocation chunk serializer
 	# (may cause incompatibility with other mods)
 	# 
-	enabled = "default"
+	gcFreeChunkSerializer = "default"
+	# (Default: true) Whether to use the optimized implementation of IO system
+	replaceImpl = "default"
+	# (Default: 8192) Soft limit for io worker nbt cache
+	chunkDataCacheSoftLimit = "default"
+	# (Default: 32678) Hard limit for io worker nbt cache
+	chunkDataCacheLimit = "default"
 
 [threadedWorldGen]
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
@@ -98,6 +103,11 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to allow reducing lock radius 
 	# (may cause incompatibility with other mods)
 	reduceLockRadius = "default"
+	# (Default: true) Whether to enable async and parallel scheduling 
+	# This will reduce server thread load 
+	# (may cause incompatibility with other mods)
+	# 
+	asyncScheduling = "default"
 	# (Default: true) Whether to enable this feature
 	enabled = "default"
 
@@ -110,4 +120,23 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	useEndBiomeCache = "default"
+
+[fixes]
+	# (Default: true)  
+	#  Whether to disable the shutdown hook of log4j2 on dedicated servers.
+	#  Enabling this also makes the JVM exit when the dedicated server is considered fully shut down.
+	#  This option have no effect on client-side.
+	#  We has historically been doing this, and this config option allows you to disable this behavior.
+	# 
+	disableLoggingShutdownHook = "default"
+	# (Default: true) Enforces safe world random access.  
+	# This feature detects unsafe off-thread world random access, helping to find the causes  
+	# of mysterious "Accessing LegacyRandomSource from multiple threads" crash.  
+	# The default behavior is to fail hard when such bad things happens.  
+	# Disabling this option will replace this behavior with a warning.  
+	# 
+	# It is generally not recommended to disable this settings unless you know what you are doing  
+	# 
+	# 
+	enforceSafeWorldRandomAccess = "default"
 
