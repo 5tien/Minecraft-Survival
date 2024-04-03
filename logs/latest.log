@@ -1,5 +1,5 @@
-[13:49:15] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
-[13:49:15] [main/INFO]: Loading 88 mods:
+[18:23:21] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[18:23:21] [main/INFO]: Loading 88 mods:
 	- asynclocator 1.3.0
 	- c2me 0.2.0+alpha.11.5
 	   |-- c2me-base 0.2.0+alpha.11.5
@@ -102,41 +102,41 @@
 	   \-- placeholder-api 2.1.2+1.20.1
 	- spark 1.10.53
 	- starlight 1.1.2+fabric.dbc156f
-[13:49:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/stenb/Documents/Minecraft%20Github/Minecraft%20Survival/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[13:49:15] [main/INFO]: Compatibility level set to JAVA_17
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:49:16] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[13:49:16] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[13:49:16] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[13:49:16] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
-[13:49:17] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[13:49:17] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[13:49:17] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton]) disables it and children
-[13:49:17] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[13:49:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[13:49:20] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
-[13:49:24] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[13:49:24] [main/WARN]: Method overwrite conflict for getConnection in krypton.mixins.json:shared.network.util.ServerPlayNetworkHandlerAccessor from mod krypton, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[13:49:26] [main/INFO]: Async Locator -> Config file found
-[13:49:26] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
-[13:49:26] [main/INFO]: Async Locator -> Configs:
+[18:23:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/E:/Minecraft%20Best%20Server/Extra%20Folder/Minecraft-Survival/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[18:23:25] [main/INFO]: Compatibility level set to JAVA_17
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:23:26] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[18:23:26] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[18:23:26] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[18:23:26] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
+[18:23:28] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:23:28] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[18:23:28] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton]) disables it and children
+[18:23:28] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[18:23:29] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[18:23:32] [main/WARN]: Method overwrite conflict for method_5800 in carpet-fixes.mixins.json:itemFixes.ItemEntity_lightningKillsDropsMixin from mod carpet-fixes, previously written by carpet.mixins.ItemEntityMixin. Skipping method.
+[18:23:38] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[18:23:38] [main/WARN]: Method overwrite conflict for getConnection in krypton.mixins.json:shared.network.util.ServerPlayNetworkHandlerAccessor from mod krypton, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[18:23:40] [main/INFO]: Async Locator -> Config file found
+[18:23:40] [main/WARN]: @ModifyConstant conflict. Skipping servercore.common.mixins.json:features.misc.MinecraftServerMixin from mod servercore->@ModifyConstant::servercore$modifyAutoSaveInterval(I)I with priority 900, already redirected by carpet-fixes.mixins.json:advanced.MinecraftServer_autosaveDelayMixin from mod carpet-fixes->@ModifyConstant::tickAutoSave(I)I with priority 1000
+[18:23:40] [main/INFO]: Async Locator -> Configs:
 Locator Threads: 1
 Remove Offer: false
 Dolphin Treasure Enabled: true
@@ -144,26 +144,27 @@ Eye Of Ender Enabled: true
 Exploration Map Enabled: true
 Locate Command Enabled: true
 Villager Trade Enabled: true
-[13:49:26] [main/INFO]: [GottaGoFast] GottaGoFast Fabric by oskardotglobal loaded sucessfully!
-[13:49:26] [main/INFO]: Compression will use Java, encryption will use Java
-[13:49:26] [main/INFO]: [MagicLib|Common]: Mod initialized - Version: 0.7.387+c02a0de-stable
-[13:49:26] [main/INFO]: Did you know that Air is made of 78 percent nitrogen and 21 percent oxygen?
-[13:49:26] [main/INFO]: [RecipeCooldown] RecipeCooldown loaded
-[13:49:26] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
-[13:49:27] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
-[13:49:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:49:28] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
-[13:49:29] [main/INFO]: Loaded 7 recipes
-[13:49:29] [main/INFO]: Loaded 1271 advancements
-[13:49:29] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.187 ms
-[13:49:29] [Server thread/INFO]: Async Locator -> Starting locating executor service with thread pool size of 1
-[13:49:30] [Server thread/INFO]: Starting background profiler...
-[13:49:30] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:49:30] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[13:49:30] [Server thread/INFO]: Loading properties
-[13:49:30] [Server thread/INFO]: Default game type: SURVIVAL
-[13:49:30] [Server thread/INFO]: Generating keypair
-[13:49:30] [Server console handler/ERROR]: Exception handling console input
+[18:23:40] [main/INFO]: [GottaGoFast] GottaGoFast Fabric by oskardotglobal loaded sucessfully!
+[18:23:40] [main/INFO]: Compression will use Java, encryption will use Java
+[18:23:40] [main/INFO]: [MagicLib|Common]: Mod initialized - Version: 0.7.387+c02a0de-stable
+[18:23:40] [main/INFO]: glisco: I like this approach, cause it's stateless. And stateless approaches are always good since state management is pain - BasiqueEvangelist: I like french bread
+[18:23:40] [main/INFO]: [RecipeCooldown] RecipeCooldown loaded
+[18:23:40] [main/INFO]: [ServerCore] Loaded V1.3.9+1.20.1!
+[18:23:41] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
+[18:23:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:23:43] [main/ERROR]: Failed to add settings command for carpet-fixes. It is masking previous command.
+[18:23:43] [main/INFO]: Loaded 7 recipes
+[18:23:43] [main/INFO]: Loaded 1271 advancements
+[18:23:44] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.023 ms
+[18:23:44] [Server thread/INFO]: Async Locator -> Starting locating executor service with thread pool size of 1
+[18:23:45] [Server thread/INFO]: Starting background profiler...
+[18:23:45] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:23:45] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:23:45] [Server thread/INFO]: Loading properties
+[18:23:45] [Server thread/INFO]: Default game type: SURVIVAL
+[18:23:45] [Server thread/INFO]: Generating keypair
+[18:23:45] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[18:23:45] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -177,147 +178,55 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[13:49:30] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[13:49:30] [Server thread/INFO]: Using default channel type
-[13:49:30] [Server thread/INFO]: Preparing level "world"
-[13:49:30] [Server thread/INFO]: [CM] Loaded 11 settings from carpet.conf
-[13:49:30] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedHypot is not a valid rule - ignoring...
-[13:49:30] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedRounding is not a valid rule - ignoring...
-[13:49:30] [Server thread/INFO]: [CM] Loaded 13 settings from carpet-fixes.conf
-[13:49:30] [Server thread/INFO]: Enforcing safe world random access
-[13:49:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:49:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:49:32] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[13:49:33] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[13:49:33] [Worker-Main-6/INFO]: Preparing spawn area: 19%
-[13:49:34] [Worker-Main-1/INFO]: Preparing spawn area: 33%
-[13:49:34] [Worker-Main-2/INFO]: Preparing spawn area: 82%
-[13:49:35] [Server thread/INFO]: Time elapsed: 2599 ms
-[13:49:35] [Server thread/INFO]: Done (4.241s)! For help, type "help"
-[13:49:47] [User Authenticator #1/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[13:49:47] [Server thread/INFO]: StenW[/127.0.0.1:63177] logged in with entity id 157 at (100.5, 49.0, 0.5)
-[13:49:47] [Server thread/INFO]: StenW joined the game
-[13:49:52] [Server thread/INFO]: Player StenW joined with a matching carpet client
-[13:50:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
-[13:50:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2478ms or 49 ticks behind
-[13:50:54] [Server thread/INFO]: StenW lost connection: Disconnected
-[13:50:54] [Server thread/INFO]: StenW left the game
-[14:04:56] [User Authenticator #2/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[14:04:56] [Server thread/INFO]: StenW[/127.0.0.1:63315] logged in with entity id 3435 at (5553.958851497939, 71.875, 1705.0632967150339)
-[14:04:56] [Server thread/INFO]: StenW joined the game
-[14:04:57] [Server thread/INFO]: Player StenW joined with a matching carpet client
-[14:09:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8414ms or 168 ticks behind
-[14:11:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5403, y=71, z=1798} class_2338{x=5401, y=71, z=1800}
-[14:11:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5403, y=71, z=1798} class_2338{x=5401, y=71, z=1800}
-[14:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5405, y=71, z=1795} class_2338{x=5408, y=71, z=1797}
-[14:11:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5405, y=71, z=1795} class_2338{x=5408, y=71, z=1797}
-[14:11:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5418, y=71, z=1790} class_2338{x=5418, y=71, z=1789}
-[14:11:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5418, y=71, z=1792} class_2338{x=5417, y=71, z=1793}
-[14:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1785} class_2338{x=5388, y=71, z=1784}
-[14:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1785} class_2338{x=5388, y=71, z=1784}
-[14:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1785} class_2338{x=5388, y=71, z=1784}
-[14:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1785} class_2338{x=5388, y=71, z=1784}
-[14:12:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1785} class_2338{x=5388, y=71, z=1784}
-[14:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1792} class_2338{x=5387, y=71, z=1790}
-[14:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1792} class_2338{x=5387, y=71, z=1790}
-[14:12:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5388, y=71, z=1792} class_2338{x=5387, y=71, z=1790}
-[14:12:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5409, y=71, z=1795} class_2338{x=5409, y=71, z=1794}
-[14:12:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5409, y=71, z=1795} class_2338{x=5409, y=71, z=1794}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5404, y=71, z=1786} class_2338{x=5403, y=71, z=1788}
-[14:12:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5402, y=71, z=1782} class_2338{x=5403, y=71, z=1782}
-[14:12:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=5402, y=71, z=1782} class_2338{x=5403, y=71, z=1782}
-[14:26:38] [Server thread/INFO]: StenW lost connection: Disconnected
-[14:26:38] [Server thread/INFO]: StenW left the game
-[14:32:45] [User Authenticator #3/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[14:32:45] [Server thread/INFO]: StenW[/127.0.0.1:63608] logged in with entity id 29752 at (5557.22642736637, 71.875, 1702.7807991036411)
-[14:32:45] [Server thread/INFO]: StenW joined the game
-[14:32:48] [Server thread/INFO]: Player StenW joined with a matching carpet client
-[14:34:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6539ms or 130 ticks behind
-[14:43:26] [Server thread/INFO]: Villager[local] logged in with entity id 49130 at (5566.580560396625, 71.0, 1698.3423671627872)
-[14:43:26] [Server thread/INFO]: Villager joined the game
-[14:43:37] [Server thread/INFO]: Villager lost connection: Killed
-[14:43:37] [Server thread/INFO]: Villager left the game
-[14:44:38] [Server thread/INFO]: Villager[local] logged in with entity id 51739 at (4926.71, 216.0, 2214.0)
-[14:44:38] [Server thread/INFO]: Villager joined the game
-[14:44:44] [Server thread/INFO]: Villager lost connection: Killed
-[14:44:44] [Server thread/INFO]: Villager left the game
-[14:44:54] [Server thread/INFO]: Villager[local] logged in with entity id 51742 at (4926.689999988079, 214.0, 2212.949999988079)
-[14:44:54] [Server thread/INFO]: Villager joined the game
-[14:45:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7703ms or 154 ticks behind
-[14:45:02] [Server thread/INFO]: Villager lost connection: Killed
-[14:45:02] [Server thread/INFO]: Villager left the game
-[14:45:08] [Server thread/INFO]: Villager[local] logged in with entity id 51743 at (4926.689999988079, 214.0, 2212.949999988079)
-[14:45:08] [Server thread/INFO]: Villager joined the game
-[14:45:41] [Server thread/INFO]: [StenW: Applied effect Bad Omen to Villager]
-[14:46:37] [Server thread/INFO]: [StenW: Applied effect Bad Omen to Villager]
-[14:54:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6071ms or 121 ticks behind
-[14:55:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2861ms or 57 ticks behind
-[14:56:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
-[14:59:15] [Server thread/INFO]: StenW lost connection: Disconnected
-[14:59:15] [Server thread/INFO]: StenW left the game
-[15:01:34] [User Authenticator #4/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[15:01:35] [Server thread/INFO]: StenW[/127.0.0.1:64066] logged in with entity id 71736 at (5542.699999988079, 70.0, 1701.199464622266)
-[15:01:35] [Server thread/INFO]: StenW joined the game
-[15:01:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2122ms or 42 ticks behind
-[15:04:23] [Server thread/INFO]: StenW lost connection: Disconnected
-[15:04:23] [Server thread/INFO]: StenW left the game
-[15:05:52] [User Authenticator #5/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[15:05:52] [Server thread/INFO]: StenW[/127.0.0.1:64289] logged in with entity id 76177 at (5556.3338457330465, 71.875, 1702.6343290861664)
-[15:05:52] [Server thread/INFO]: StenW joined the game
-[15:05:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[15:08:04] [Server thread/INFO]: StenW lost connection: Disconnected
-[15:08:04] [Server thread/INFO]: StenW left the game
-[15:54:11] [User Authenticator #6/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[15:54:11] [Server thread/INFO]: StenW[/127.0.0.1:65033] logged in with entity id 99897 at (5556.3338457330465, 71.875, 1702.6343290861664)
-[15:54:11] [Server thread/INFO]: StenW joined the game
-[15:54:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[15:56:49] [Server thread/INFO]: StenW lost connection: Disconnected
-[15:56:49] [Server thread/INFO]: StenW left the game
-[15:56:52] [User Authenticator #7/INFO]: UUID of player StenW is 2b45f93c-4428-4852-856c-510463ce411d
-[15:56:52] [Server thread/INFO]: StenW[/127.0.0.1:65104] logged in with entity id 103882 at (4925.804147466136, 209.0, 2215.7775495721203)
-[15:56:52] [Server thread/INFO]: StenW joined the game
-[15:58:21] [Server thread/INFO]: Villager lost connection: Killed
-[15:58:21] [Server thread/INFO]: Villager left the game
-[16:00:54] [Server thread/INFO]: Villager[local] logged in with entity id 106773 at (4926.689999988079, 214.0, 2212.949999988079)
-[16:00:54] [Server thread/INFO]: Villager joined the game
-[16:01:07] [Server thread/INFO]: [StenW: Applied effect Bad Omen to Villager]
-[16:01:24] [Server thread/INFO]: StenW lost connection: Disconnected
-[16:01:24] [Server thread/INFO]: StenW left the game
-[16:03:13] [Server thread/INFO]: Villager was slain by Vex
-[16:03:13] [Server thread/INFO]: Villager lost connection: Villager died
-[16:03:13] [Server thread/INFO]: Villager left the game
-[16:06:56] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:06:56] [Server thread/INFO]: Saved the game
-[16:06:59] [Server thread/INFO]: Stopping the server
-[16:06:59] [Server thread/INFO]: Async Locator -> Shutting down locating executor service
-[16:06:59] [Server thread/INFO]: Stopping server
-[16:06:59] [Server thread/INFO]: Saving players
-[16:06:59] [Server thread/INFO]: Saving worlds
-[16:06:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:06:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:06:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:06:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:06:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:06:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:06:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:06:59] [C2ME Storage #3/INFO]: Storage thread Thread[C2ME Storage #3,8,main] stopped
-[16:06:59] [C2ME Storage #2/INFO]: Storage thread Thread[C2ME Storage #2,8,main] stopped
-[16:06:59] [C2ME Storage #1/INFO]: Storage thread Thread[C2ME Storage #1,8,main] stopped
-[16:06:59] [C2ME Storage #6/INFO]: Storage thread Thread[C2ME Storage #6,8,main] stopped
-[16:06:59] [C2ME Storage #5/INFO]: Storage thread Thread[C2ME Storage #5,8,main] stopped
-[16:06:59] [C2ME Storage #4/INFO]: Storage thread Thread[C2ME Storage #4,8,main] stopped
-[16:06:59] [C2ME Storage #9/INFO]: Storage thread Thread[C2ME Storage #9,8,main] stopped
-[16:06:59] [C2ME Storage #8/INFO]: Storage thread Thread[C2ME Storage #8,8,main] stopped
-[16:06:59] [C2ME Storage #7/INFO]: Storage thread Thread[C2ME Storage #7,8,main] stopped
+[18:23:45] [Server thread/INFO]: Using default channel type
+[18:23:45] [Server thread/INFO]: Preparing level "world"
+[18:23:45] [Server thread/INFO]: [CM] Loaded 11 settings from carpet.conf
+[18:23:45] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedHypot is not a valid rule - ignoring...
+[18:23:45] [Server thread/ERROR]: [CM]: Carpet Fixes Setting optimizedRounding is not a valid rule - ignoring...
+[18:23:45] [Server thread/INFO]: [CM] Loaded 13 settings from carpet-fixes.conf
+[18:23:46] [Server thread/INFO]: Enforcing safe world random access
+[18:23:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:23:48] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:23:48] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:23:48] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:23:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:23:49] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:23:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:23:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:23:50] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[18:23:51] [Worker-Main-5/INFO]: Preparing spawn area: 7%
+[18:23:51] [Worker-Main-13/INFO]: Preparing spawn area: 26%
+[18:23:52] [Worker-Main-10/INFO]: Preparing spawn area: 66%
+[18:23:52] [Server thread/INFO]: Time elapsed: 5190 ms
+[18:23:52] [Server thread/INFO]: Done (6.582s)! For help, type "help"
+[18:24:09] [User Authenticator #1/INFO]: UUID of player FireGhest is debce880-f9a1-40f0-8a93-b61b35b663ad
+[18:24:09] [Server thread/INFO]: FireGhest[/127.0.0.1:49369] logged in with entity id 154 at (5322.956910045352, 69.0, 1808.5511459308423)
+[18:24:09] [Server thread/INFO]: FireGhest joined the game
+[18:24:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[18:25:31] [Server thread/INFO]: FireGhest lost connection: Disconnected
+[18:25:31] [Server thread/INFO]: FireGhest left the game
+[18:25:39] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:25:39] [Server thread/INFO]: salve-all<--[HERE]
+[18:25:42] [Server thread/INFO]: Saving the game (this may take a moment!)
+[18:25:43] [Server thread/INFO]: Saved the game
+[18:25:44] [Server thread/INFO]: Stopping the server
+[18:25:44] [Server thread/INFO]: Async Locator -> Shutting down locating executor service
+[18:25:44] [Server thread/INFO]: Stopping server
+[18:25:44] [Server thread/INFO]: Saving players
+[18:25:44] [Server thread/INFO]: Saving worlds
+[18:25:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:25:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:25:45] [C2ME Storage #3/INFO]: Storage thread Thread[C2ME Storage #3,8,main] stopped
+[18:25:45] [C2ME Storage #2/INFO]: Storage thread Thread[C2ME Storage #2,8,main] stopped
+[18:25:45] [C2ME Storage #1/INFO]: Storage thread Thread[C2ME Storage #1,8,main] stopped
+[18:25:45] [C2ME Storage #6/INFO]: Storage thread Thread[C2ME Storage #6,8,main] stopped
+[18:25:45] [C2ME Storage #4/INFO]: Storage thread Thread[C2ME Storage #4,8,main] stopped
+[18:25:45] [C2ME Storage #5/INFO]: Storage thread Thread[C2ME Storage #5,8,main] stopped
+[18:25:45] [C2ME Storage #7/INFO]: Storage thread Thread[C2ME Storage #7,8,main] stopped
+[18:25:45] [C2ME Storage #8/INFO]: Storage thread Thread[C2ME Storage #8,8,main] stopped
+[18:25:45] [C2ME Storage #9/INFO]: Storage thread Thread[C2ME Storage #9,8,main] stopped
